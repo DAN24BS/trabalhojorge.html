@@ -1,4 +1,77 @@
+
+header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Coloca os itens nas extremidades */
+    background: #004977;
+    color: #ffffff;
+    padding: 10px 20px; /* Adiciona padding */
+}
+
 .logotecimg {
-  width: 500px;
-  height: 500px;
+    max-width: 100px; /* Define um tamanho máximo para o logotipo */
+    height: auto; /* Mantém a proporção do logotipo */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#menu-principal {
+    background-color: #f8f9fa; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+#menu-principal ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding */
+}
+
+#menu-principal li {
+    display: inline; /* Coloca os itens em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+#menu-principal a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #007BFF; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    border: 2px solid transparent; /* Borda inicial */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
+}
+
+#menu-principal a:hover {
+    background-color: #007BFF; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+    border-color: #0056b3; /* Borda ao passar o mouse */
+}
+.curso{
+    margin-right: 410px;
 }
